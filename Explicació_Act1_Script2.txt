@@ -1,0 +1,18 @@
+El script 2 agafa per paràmetres les rutes del directory origen, del que es vol fer el 
+backup, i la ruta destí a la cual es vol guardar la copia de seguretat.
+
+Es molt simple l'execució d'aquest, només haurem de pasar per parametres aquestes dues coses, primer 
+el directori origen i després el destí. Es recomana igual que al script 1 posar les rutes absolutes 
+per evitar qualsevol tipus de problemes.
+
+Farà la comanda copy-item, pero si alguna cosa no la hem posat correctament preguntarà si volem continuar 
+amb la comanda o si la volem interrompre.
+
+EXEMPLE:
+
+PS C:\Windows\system32> C:\Users\Wakizashi\Documents\github\Prova-1\Powershell_Act1_Script2_Arnau_Garcia C:\Users\Wakizashi\Desktop\prova C:\Users\Wakizashi\Desktop\prova_in\
+
+Creant Backup ...
+
+PS C:\Windows\system32>
+ 
