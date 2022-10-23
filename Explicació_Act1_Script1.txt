@@ -1,0 +1,27 @@
+El script 1 agafa per paràmetres el tipus del que volem buscar.
+ 
+Primer determinarem si volem buscar un "Fitxer" o un "Directori" si no és cualsevol dels dos 
+inputs escrits tal i com s'indica, el script no funcionarà i continuarà endevant dient-nos que no l'ha trobat.
+
+Després haurem de posar la ruta a la qual volem buscar, podem posar tant la ruta absoluta com la relativa, però
+es recomenable posar la absoluta per evitar problemes.
+
+I per últim haurem d'introduir el nom del fitxer amb la seva extensió. Aquest script només trobarà els arxius 
+que tinguin el nom exacte amb la extensió correcta sino no el trobarà.
+
+EXEMPLE:
+
+*Execució del script*
+PS C:\Windows\system32> C:\Users\Wakizashi\Documents\github\Prova-1\Powershell_Act1_Script1_Arnau_Garcia Fitxer C:\Users Explicació_Act1_Script1.txt
+
+*Resultat donat*
+El Fitxer Explicació_Act1_Script1.txt existeix a la ruta/es:
+
+C:\Users\Wakizashi\Documents\github\Prova-1\Explicació_Act1_Script1.txt
+
+Quin és el que tu busques?
+
+
+
+Com la búsqueda la fa recursiva, en el cas de que trobés més d'un fitxer amb el mateix nom, expondria la ruta dels dos i 
+sempre pregunta quin es el que busques. 
