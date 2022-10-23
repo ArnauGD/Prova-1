@@ -16,6 +16,9 @@ $nom_fitxer = $array_origen[-1]
 
 $backup_date = Get-Date -Format dd-MM-yyyy
 
-#Copiem el directori a la ruta destí, amb el nom de format Backup_nomfitxer_data
+#Copiem el directori a la ruta destí, amb el nom de format Backup_nomfitxer_data, si dona error preguntarà si es vol continuar
 
-Copy-Item -Path $origen -Destination ($destí+"\Backup_"+$nom_fitxer+"_"+$backup_date)
+Copy-Item -Path $origen -Destination ($destí+"\Backup_"+$nom_fitxer+"_"+$backup_date) -ErrorAction Inquire
+
+Write-Host "`nCreant Backup ...`n"
+sleep 2
