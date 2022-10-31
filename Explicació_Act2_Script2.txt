@@ -1,0 +1,24 @@
+Introduirem la ruta del arxiu csv com a paràmetre.
+
+Aquest script agafa tot el contingut d'un arxiu csv i linia per linia
+desgloça l'informació de cada usuari per crear el seu perfil amb la comanda
+New-ADUser.
+
+L'script es bastant simple, amb un for-each va agafant la informació de cada
+linia i cada camp va a parar a una variable que després es posaran a la comanda
+final i es crearà l'usuari.
+
+Haurem de tenir en compte que no tots els arxius csv per afegir usuaris són iguals
+i en el nostre cas, per crear un usuari només demana els seguents camps:
+
+Firstname,Lastname,Description,Password,OU
+
+Tot haurà d'estar degudament delimitat per les comes, i en el cas de la OU si
+és una ruta llarga delimitada per comes, tot el string haurà d'anar entrecomillat per
+que sinó sorgirà un error.
+
+És el que deia que l'script hauria de ser adaptat a l'arxiu csv que nosaltres tenim.
+
+Per produir el mateix que el nostre script també tenim la comanda CSVDE que ens faria tota la feina sense 
+necesitat de cap script.
+  

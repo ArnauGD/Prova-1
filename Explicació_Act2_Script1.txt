@@ -1,0 +1,8 @@
+L'script demana a l'usuari que introdueixi el nom, els cognoms, el nom d'usuari,
+i per últim pregunta a l'usuari si vol introduir una contrasenya.
+
+Si diem que NO (N),el usuari es crearà sense contrasenya, i si diem que Si (Y) ens demanarà 
+la contrasenya que volem posar, haurem de tenir cura ja que si no posem una contrasenya amb 
+els requesits de complexitat que ens demana, l'usuari es crearà però, estarà deshabilitat i fins
+que no iniciem sessió no podrem utilitzar-lo; a més haurem de posar una nova contrasenya en el login.
+

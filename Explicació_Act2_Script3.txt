@@ -1,0 +1,9 @@
+L'script ens mostra les diferents informacions demanades, 
+algunes d'elles en forma de taula per que sigui més visible.
+
+Utilitzem el Get-Aduser per obtenir la informació, que després filtrem amb un where
+i així obtenim el que volem, per després mostrar-lo amb un Format-Table.
+
+Per últim oferim a l'usuari eliminar tots els usuaris inhabilitats, si determina que sí, els eliminem.
+Haurem de tenir en compte que no s'eliminaràn tots ja que alguns d'ells perteneixen al sistema i 
+per tant no serà possible eliminar-los.
