@@ -1,0 +1,6 @@
+Amb aquest script comprovarem el estat de la connexió TCP.
+A través de la comanda Test-NetConnection dirigida al port 80, 
+podrem determinar si el camp TCPtestSucceeded esta com a True o False, 
+determinant així si la connexió es correcta o no.
+Depenent del resultat, mostrarem per pantalla, utilitzant un quadre de missatge emergent, 
+el estat de la connexió si es correcta o no.

@@ -1,0 +1,11 @@
+L'script bàsicament demana a l'usuari, per la ruta absoluta del fitxer iso
+que vol muntar a la màquina. 
+
+Una vegada ja ha fet el treball de muntar-ho, demana a l'usuari per el nom del fitxer
+que vol copiar. Com l'usuari només introdueix el nom del fixter, hem de fer una busqueda 
+i mostrar a l'usuari tots els fitxer que concideixen amb el nom proporcionat, una vagada ja els tenim
+i l'usuari els ha vist, ha de decidir quin d'ells és el que vol copiar, per fer aixó, haurà 
+d'introduir la ruta absoluta que mostra la llista.
+
+Ja introduida, demanarem el desti al qual es vol copiar el fitxer, aquest també haura de ser la ruta absoluta.
+Farem la copia i ens acomiadarem. 

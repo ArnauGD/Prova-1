@@ -1,0 +1,6 @@
+Amb aquest script, l'usuari podrà escollir si vol 
+obtenir els ports UDP o TCP oberts a la màquina actual.
+Si mirem codi o ens fixem en el output, ens adonarem que 
+s'utilitzen diferentes comandes per fer cadascuna de les accions.
+El codi també filtrarà els inputs de l'usuari per que no ens doni 
+un missatge erroni que no es trobi entre els possibles.
