@@ -1,5 +1,5 @@
 ﻿
-#El primer que farme serà demanar les credencial a l'usuari que executa el script (hauran d'introduir el correu i la contrasenya proporcionada per google)
+#El primer que farme serà demanar les credencial a l'usuari que executa el script
 $mycredentials = Get-Credential
 
 #Agafem els parametres, el directori origen amb la seva ruta absoluta
