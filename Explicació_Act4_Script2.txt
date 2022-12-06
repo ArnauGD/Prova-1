@@ -1,0 +1,5 @@
+Aquest segon script practicament fa el mateix que el primer script, però aquesta vegada el 
+servidor smtp no és de gmail sino el de office365 i amb aquest no haurem de fer cap
+configuració extra més enllà del script que ja tenim fet.
+Pero resumint, aquest fa una copia de seguretat d'un fitxer i ens avisa per correu quan el 
+procés ha finalitzat, i si no hi ha hagut cap error durant el procés.

@@ -1,0 +1,20 @@
+Aquest script té la funció de fer una copia de "seguretat" o Backup d'un fitxer qualsevol, 
+i una vegada ha acabat de fer-ho envia un correu electronic avisant de que el procés
+ha acabat. 
+Segons el servidor smtp que s'hagui d'utilitzar serà una mica més complex o més simple.
+En aquest cas com és al gmail, ho farem seguint els pasos que ens proporciona aquesta pàgina web:
+https://techexpert.tips/es/powershell-es/powershell-enviar-correo-electronico-con-gmail/
+
+El script comença agafant les credencials de l'usuari que l'esta executant, haurem de posar el 
+correu gmail que hem configurat, i després el codi que google ens proporciona.
+
+Una vegada fet aixó, demana la ruta del fitxer a copiar i el destí d'aquest.
+Fem diversos procesos per obtenir el nom real del fixter i agafem la data actual.
+
+Després notifiquem sobre el correu i demanem la direcció, que serà la utilitzada per enviar i rebre el missatge 
+de que el procés ja ha acabat.
+
+Farem el proces de copia del fitxer.
+En la condició que ve consequentment, comprovarem si hi ha hagut cap error a la copia.
+Si hi ha hagut cap error, mostrarà un missatge d'error i finalitzarà.
+Si tot es correcte, enviarà el missatge per correu, a través de la comanda Send-MailMessage i ens dirà que esta fet.
