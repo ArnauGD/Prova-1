@@ -1,0 +1,7 @@
+Al igual que l'script anterior fem la comanda Get-ADUser i 
+posteriorment donem format per rebre només el nom, SID i el SamAccountName.
+Mostrem aixó a l'usuari i després demanem el nom de SamAccountName de l'usuari que volem.
+Posteriorment demanem la ruta absoluta de la foto que vol posar de perfil.
+Convertim l'informació de la foto, i aquesta la utilitzem per, amb la comanda Set-ADUser 
+determinar-li a l'usuari en questió la foto de perfil.
+Per últim ens acomiadem de l'usuari.

@@ -1,0 +1,5 @@
+Aquest script, és molt senzill només executa la comanda 
+Get-ADUser i filtra per tots els usuaris, així rebem tots el usuaris 
+de active directory, i a la mateixa comanda posem una pipe per donar 
+format a la sortida, per que nosaltre només volem veure el nom i el SID
+dels usuaris.

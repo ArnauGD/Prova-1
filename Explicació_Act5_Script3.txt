@@ -1,0 +1,16 @@
+El script ens agafa la hora de l'últim inci de sessió de l'usuari que 
+volem "auditar" i si aquesta esta fora del rang de hores de l'horari laboral
+escriu el nom d'aquest en un fitxer txt anomenat alerta.txt per que així l'administrador 
+tingui en compte que aquest usuari ha iniciat sessió fora de l'horari "permés" i haurem de 
+estar alerta sobre la seva activitat i vigilar-lo d'aprop.
+
+Primer demana a l'usuari per el nom SamAccountName de l'usuari de Active Directory.
+Després extreu el valor del lastlogon de l'usuari i ho obtenim amb format hh:mm.
+Amb aquest valor, fem una condició on ho comparem amb els valors de l'horari de treball.
+Si esta fora dels rangs, aviasarà a l'usuari i afegirà el nom del usuari al fitxer alerta.txt
+Si el valor esta dins, no farà cap acció, només avisarà a l'usuari que no hi ha res extrany.
+
+
+
+
+
